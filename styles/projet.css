@@ -1,0 +1,70 @@
+
+@font-face {
+    font-family: 'PoppinsExtraBold';
+    src: url('/assets/Poppins/Poppins-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'PoppinsRegular';
+    src: url('/assets/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'PoppinsSemiBold';
+    src: url('/assets/Poppins/Poppins-SemiBold.ttf');
+}
+
+
+@font-face {
+    font-family: 'PoppinsItalics';
+    src: url('/assets/Poppins/Poppins-Italic.ttf');
+}
+
+
+
+.allCards{
+    text-align: center;
+    grid-template-columns: repeat(3,0fr);
+    display: grid;
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.allCards img{
+    width: '380px';
+}
+
+.allCards div{
+    padding: 10px;   
+}
+
+ h4{
+    font-family: 'PoppinsExtraBold';
+}
+
+section div h2 {
+    font-family: 'PoppinsSemiBold';
+    font-size: 20px;
+}
+
+section div p {
+    font-family: 'PoppinsItalics';
+}
+@media screen and (max-width: 1224px){
+    .allCards{
+       display: grid;
+       grid-template-columns: repeat(2, 0fr);
+       }
+    }
+    @media screen and (max-width: 768px){
+        .allCards{
+           display: grid;
+           grid-template-columns: repeat(1, 0fr);
+           }
+        }
+h4{
+    background-color: #EB984E;
+    padding: 10px;
+    display: inline-block;
+    width: fit-content;
+}

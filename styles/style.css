@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'PoppinsExtraBold';
+    src: url('/assets/Poppins/Poppins-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'PoppinsRegular';
+    src: url('/assets/Poppins/Poppins-Regular.ttf');
+}
+
+.para h1{
+    text-align: end;
+}
+.para p {
+    font-family: 'PoppinsRegular';
+    font-size: 20px;
+    text-align: end;
+} 
+h1{
+    font-family: 'PoppinsExtraBold';
+}
+
+
+.buttonDecouv {
+    text-align: center;
+}
+
+.btnDecouvrir {
+    border-radius: 1em;
+    background-color: #EB984E;
+    color: white;
+    text-decoration: none;
+}
+
+.logoLien {
+    text-align: center;
+    padding: 15pt;
+    margin: 15pt;
+}
+
+.logoWelcome {
+    text-align: center;
+}
+
+.imgWelcome {
+    width: 200px;
+    height: 200px;
+}
+
+.imgGmail {
+    width: 100px;
+    height: 100px;
+    padding: 10pt;
+}
+
+.imgOutlook {
+    width: 80px;
+    height: 100px;
+    padding: 10pt;
+}
+
+.imgLinkedin {
+    width: 100px;
+    height: 100px;
+    padding: 10pt;
+}
+
+.txtIndex {
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.para {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+
+body {
+    background-color: #F0B27A;
+    color: white;
+    font-weight: bold;
+    font-size: 18pt;
+}
